@@ -4,23 +4,24 @@
 
 이 프로젝트의 폴더 및 파일 구조는 다음과 같습니다:
 
-src/
-|-- config/ # 설정 파일 및 데이터베이스 연결
-|-- controllers/ # 애플리케이션 로직 및 라우터 핸들러
-|-- dtos/ # 데이터 전송 객체 정의
-|-- models/ # 데이터베이스 엑세스 레이어
-|-- providers/ # 외부 서비스 제공자
-|-- routes/ # 애플리케이션 라우트 정의
-|-- services/ # 비즈니스 로직 및 서비스 레이어
-|-- app.js # 애플리케이션 엔트리 포인트
+```bash
+├── src/
+│ ├── config/ # 설정 파일 및 데이터베이스 연결
+│ ├── controllers/ # 애플리케이션 로직 및 라우터 핸들러
+│ ├── dtos/ # 데이터 전송 객체 정의
+│ ├── models/ # 데이터 엑세스 레이어
+│ ├── providers/ # 외부 서비스 제공자
+│ ├── routes/ # 애플리케이션 라우트 정의
+│ ├── services/ # 비즈니스 로직 및 서비스 레이어
+│ └── app.js # 애플리케이션 엔트리 포인트
 
-swagger/ # Swagger API 문서 관련 파일
-
-.gitignore # Git에서 추적하지 않을 파일 목록
-config.env # 환경 변수 설정
-package-lock.json # NPM 종속성 목록 및 버전 관리
-package.json # NPM 프로젝트 설정 및 스크립트
-README.md # 프로젝트 설명 및 사용 방법
+├── swagger/ # Swagger API 문서 관련 파일
+├── .gitignore # Git에서 추적하지 않을 파일 목록
+├── config.env # 환경 변수 설정
+├── package-lock.json # NPM 종속성 목록 및 버전 관리
+├── package.json # NPM 프로젝트 설정 및 스크립트
+└── README.md # 프로젝트 설명 및 사용 방법
+```
 
 ## 환경 설정
 
@@ -86,3 +87,7 @@ nodemon은 root에서 실행되기에 환경 변수 경로 반드시 root로 설
 예: `dotenv.config({ path: "./config.env" });`
 
 현재 환경 변수 경로로 node app.js 실행 시 오류 발생!
+
+```
+
+```
