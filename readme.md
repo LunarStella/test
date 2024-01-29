@@ -74,7 +74,7 @@
 
 ## 로컬에서 실행 방법
 
-1. npm in 로 라이브러리 설치
+1. npm install 로 라이브러리 설치
 
 2. 터미널에서 npm start로 서버 실행 (nodemon으로 실행)
 
