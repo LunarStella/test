@@ -12,13 +12,13 @@
 
 **node app.js로 실행 시 오류 발생!**
 
-반드시 npm start로 서버 실행
+- 반드시 npm start로 서버 실행
 
-nodemon은 root에서 실행, node app.js는 src 폴더에서 시작되기에 오류 발생
+- nodemon은 root에서 실행, node app.js는 src 폴더에서 시작되기에 오류 발생
 
 **환경 변수 경로 반드시 root로 설정**
 
-위와 동일한 이유로 nodemon이 root에서 시작하기 때문
+- 위와 동일한 이유로 nodemon이 root에서 시작하기 때문
 
 예: `dotenv.config({ path: "./config.env" });`
 
