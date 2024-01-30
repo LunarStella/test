@@ -8,7 +8,7 @@ const options = {
       description: "DAON API with express, API 설명",
     },
     host: "localhost:3000",
-    basepath: "../",
+    basepath: "/",
   },
   apis: ["./src/routes/*.js", "./swagger/*"],
 };
