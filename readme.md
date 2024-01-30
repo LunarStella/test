@@ -1,3 +1,27 @@
+# 시작하기
+
+## 로컬에서 실행 방법
+
+1. npm install 로 라이브러리 설치
+
+2. 터미널에서 npm start로 서버 실행 (nodemon으로 실행)
+
+## 주의점
+
+### 환경 변수 경로 관련
+
+**node app.js로 실행 시 오류 발생!**
+
+반드시 npm start로 서버 실행
+
+nodemon은 root에서 실행, node app.js는 src 폴더에서 시작되기에 오류 발생
+
+**환경 변수 경로 반드시 root로 설정**
+
+예: `dotenv.config({ path: "./config.env" });`
+
+---
+
 # 폴더 구성
 
 ## 폴더 구조
